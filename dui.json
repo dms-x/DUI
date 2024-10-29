@@ -1,0 +1,347 @@
+{
+    "commercial_drinks": [
+      {
+        "name": "Soju",
+        "alcoholMl": 5.72
+      },
+      {
+        "name": "Beer",
+        "alcoholMl": 17.75
+      },
+      {
+        "name": "Whisky",
+        "alcoholMl": 18.832
+      },
+      {
+        "name": "Vodka",
+        "alcoholMl": 18
+      },
+      {
+        "name": "Tequila",
+        "alcoholMl": 18
+      },
+      {
+        "name": "Wine",
+        "alcoholMl": 27
+      },
+      {
+        "name": "cocktail",
+        "alcoholMl": 6.6
+      },
+      {
+        "name": "Water",
+        "alcoholMl": -5
+      }
+    ],
+
+    "states": [
+      {
+        "State": "Alabama",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": null
+      },
+      {
+        "State": "Alaska",
+        "DUI": 0.08,
+        "zero_tolerance": 0.00,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Arizona",
+        "DUI": 0.08,
+        "zero_tolerance": 0.00,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Arkansas",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "California",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.16
+      },
+      {
+        "State": "Colorado",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.17
+      },
+      {
+        "State": "Connecticut",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.16
+      },
+      {
+        "State": "Delaware",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "District of Columbia",
+        "DUI": 0.08,
+        "zero_tolerance": 0.00,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Florida",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Georgia",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Hawaii",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Idaho",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.20
+      },
+      {
+        "State": "Illinois",
+        "DUI": 0.08,
+        "zero_tolerance": 0.00,
+        "enhanced": 0.16
+      },
+      {
+        "State": "Indiana",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Iowa",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Kansas",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Kentucky",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.18
+      },
+      {
+        "State": "Louisiana",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Maine",
+        "DUI": 0.08,
+        "zero_tolerance": 0.00,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Maryland",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": null
+      },
+      {
+        "State": "Massachusetts",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.20
+      },
+      {
+        "State": "Michigan",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.17
+      },
+      {
+        "State": "Minnesota",
+        "DUI": 0.08,
+        "zero_tolerance": 0.00,
+        "enhanced": 0.16
+      },
+      {
+        "State": "Mississippi",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": null
+      },
+      {
+        "State": "Missouri",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Montana",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": null
+      },
+      {
+        "State": "Nebraska",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Nevada",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.18
+      },
+      {
+        "State": "New Hampshire",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.18
+      },
+      {
+        "State": "New Jersey",
+        "DUI": 0.08,
+        "zero_tolerance": 0.01,
+        "enhanced": 0.10
+      },
+      {
+        "State": "New Mexico",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.16
+      },
+      {
+        "State": "New York",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.18
+      },
+      {
+        "State": "North Carolina",
+        "DUI": 0.08,
+        "zero_tolerance": 0.00,
+        "enhanced": 0.15
+      },
+      {
+        "State": "North Dakota",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.18
+      },
+      {
+        "State": "Ohio",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.17
+      },
+      {
+        "State": "Oklahoma",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.17
+      },
+      {
+        "State": "Oregon",
+        "DUI": 0.08,
+        "zero_tolerance": 0.00,
+        "enhanced": null
+      },
+      {
+        "State": "Pennsylvania",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.16
+      },
+      {
+        "State": "Rhode Island",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "South Carolina",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.16
+      },
+      {
+        "State": "South Dakota",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.17
+      },
+      {
+        "State": "Tennessee",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.20
+      },
+      {
+        "State": "Texas",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Utah",
+        "DUI": 0.05,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.16
+      },
+      {
+        "State": "Vermont",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": null
+      },
+      {
+        "State": "Virginia",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Washington",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "West Virginia",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Wisconsin",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      },
+      {
+        "State": "Wyoming",
+        "DUI": 0.08,
+        "zero_tolerance": 0.02,
+        "enhanced": 0.15
+      }
+    ]
+    
+  }
+  

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anti Breathalyzer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link href="dui.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.cdnfonts.com/css/8bit-wonder" rel="stylesheet">
+</head>
+<body>
+    <div class="topnav">
+
+    </div>
+    
+    <div class="device">
+        <div class="result">
+            <div class="firstPage">
+                <h2 class="age">Are you over 21?</h2>
+                <button id="yes">yes</button>
+                <button id="no">no</button>
+            </div>
+            <div class="barstool">
+                <div class="location-container">
+                    <div class="barnav">
+                    <!--<img src="img/location.png" id="loc" alt="location">-->
+                        <p id="locP">Bar</p>
+                        <p id="clock">10:00</p>
+                    </div>
+                    <p id="hiBar"></p>
+                    <div class="menuBoard">
+                        <div class="leftMenu">
+                            <div class="drink-menu">
+                                <p class="drink-name">beer</p>
+                                <div class="counter-container">
+                                    <button class="minus-btn">-</button>
+                                    <p class="counter">0</p>
+                                    <button class="plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="drink-menu">
+                                <p class="drink-name">whisky</p>
+                                <div class="counter-container">
+                                    <button class="minus-btn">-</button>
+                                    <p class="counter">0</p>
+                                    <button class="plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="drink-menu">
+                                <p class="drink-name">vodka</p>
+                                <div class="counter-container">
+                                    <button class="minus-btn">-</button>
+                                    <p class="counter">0</p>
+                                    <button class="plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="drink-menu">
+                                <p class="drink-name">tequila</p>
+                                <div class="counter-container">
+                                    <button class="minus-btn">-</button>
+                                    <p class="counter">0</p>
+                                    <button class="plus-btn">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rightMenu">
+                            <div class="drink-menu">
+                                <p class="drink-name">soju</p>
+                                <div class="counter-container">
+                                    <button class="minus-btn">-</button>
+                                    <p class="counter">0</p>
+                                    <button class="plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="drink-menu">
+                                <p class="drink-name">cocktail</p>
+                                <div class="counter-container">
+                                    <button class="minus-btn">-</button>
+                                    <p class="counter">0</p>
+                                    <button class="plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="drink-menu">
+                                <p class="drink-name">wine</p>
+                                <div class="counter-container">
+                                    <button class="minus-btn">-</button>
+                                    <p class="counter">0</p>
+                                    <button class="plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="drink-menu">
+                                <p class="drink-name">water</p>
+                                <div class="counter-container">
+                                    <button class="minus-btn">-</button>
+                                    <p class="counter">0</p>
+                                    <button class="plus-btn">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="img/users.png" alt="person">
+                <select id="gender">
+                    <option value="men">Men</option>
+                    <option value="women">Women</option>
+                </select>
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="height" placeholder="Height in cm">
+                <input type="text" id="weight" placeholder="Weight in kg">
+                <!--<input type="text" id="alc" placeholder="how many alc in mL">-->
+                <select id="state">
+                    <option value="" disabled selected>Select a state</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="District of Columbia">District of Columbia</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                  </select>
+                  
+            </div>
+            <h1 class="per">Null</h1>
+            <p class="prompt" Null>Null</p>
+        </div>
+        <button id="button2">enter</button>
+    </div>
+    <script src="dui.js"></script>
+</body>
+</html>

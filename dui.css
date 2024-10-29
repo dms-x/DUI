@@ -1,0 +1,173 @@
+/* In God We Trust */
+@import url('https://fonts.cdnfonts.com/css/8bit-wonder');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: '8BIT WONDER', sans-serif;
+    background-color: rgb(68, 68, 68);
+}
+
+.firstPage h2 {
+    padding-top: 5px;
+}
+
+.firstPage button{
+    border-width: 3px;
+    font-family: '8BIT WONDER', sans-serif;
+}
+
+
+
+.device {
+    height: 350px;
+    width: 500px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+     /* Scale up by 30% */
+     /*transform: scale(2.3);
+     transform-origin: center;*/
+}
+
+.result {
+    width: 480px;
+    height: 150px;
+    border-radius: 7px;
+    align-items: center;
+    background-color: beige;
+    margin: 5px 5px 5px; /* Adjust the top margin to reduce the gap */
+    padding: 5px;
+}
+
+.box {
+    width: 180px;
+    height: 160px;
+    border-radius: 7px;
+    align-items: center;
+    display: none;
+}
+
+.barstool {
+    display: none;
+    text-align: left;
+    margin: 0 2px 0px;
+}
+
+#locP {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.barnav {
+    display: flex; /* Use Flexbox to enable flexible layout */
+    justify-content: space-between; /* Distribute elements with space between them */
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#hiBar {
+    font-size: 7px;
+    margin-left: 5px;
+    margin-top: 0px;
+}
+
+#clock {
+    font-size: 7px;
+}
+
+#loc {
+    width: 13px;
+    height: 13px;
+}
+
+.result h1{
+    text-align: center; 
+    font-size: 33px;
+    display: none;
+    padding-top: 26px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.prompt {
+    font-size: 7px;
+    padding: 3px;
+    display: none;
+}
+
+#button2 {
+    margin-top: 100px;
+    border-width: 2px;
+    font-family: '8BIT WONDER', sans-serif;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box select,
+.box input {
+    width: 170px;
+    margin-bottom: 4px;
+    border: none;
+    font-size: 10px;
+    background-color: beige;
+    font-family: '8BIT WONDER', sans-serif;
+}
+
+.box img{
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+.drink-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.leftMenu, .rightMenu { 
+    width: 100px;
+    border: 1px solid #000;
+}
+
+.menuBoard {
+    display: flex;
+}
+
+.drink-name {
+    font-size: 8px;
+    margin: 0;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+}
+
+.counter-container button {
+    font-size: 8px;
+    padding: 1px 2px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-width: 2px;
+    border-color: black;
+}
+
+.counter {
+    font-size: 5px;
+    margin: 0 10px;
+}
+
+.menuBoard p{
+    font-size: 10px;
+}
+
